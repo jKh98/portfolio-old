@@ -8,5 +8,7 @@
     <orderEntry type="library" name="ionicons" level="application" />
     <orderEntry type="library" name="bootstrap.bundle" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="github-calendar" level="application" />
+    <orderEntry type="library" name="github-calendar-responsive" level="application" />
   </component>
 </module>

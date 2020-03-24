@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
 
-<body>
+<>
 <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
     <div class="container"><a class="navbar-brand logo" href="#">Jihad Al-Khurfan</a>
         <button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span
@@ -51,9 +51,9 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card special-skill-item border-0">
-                        <div class="card-header bg-transparent border-0"><i class="icon ion-code"></i></div>
+                        <div class="card-header bg-transparent border-0"><i class="icon ion-laptop"></i></div>
                         <div class="card-body">
-                            <h3 class="card-title">Front-end Dev.</h3>
+                            <h3 class="card-title">Development</h3>
                             <p class="card-text">I mostly develop front-end Android mobile applications as well as
                                 javascript
                                 websites and ReactJS web applications. I also have exposure to backend development.</p>
@@ -64,7 +64,7 @@
                     <div class="card special-skill-item border-0">
                         <div class="card-header bg-transparent border-0"><i class="icon ion-network"></i></div>
                         <div class="card-body">
-                            <h3 class="card-title">Network Simulation</h3>
+                            <h3 class="card-title">Networking</h3>
                             <p class="card-text">I am interested in research on vehicular networks. I use NS3
                                 and SUMO open-source simulators for vehicular traffic and network simulation.</p>
                         </div>
@@ -72,11 +72,11 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card special-skill-item border-0">
-                        <div class="card-header bg-transparent border-0"><i class="icon ion-laptop"></i></div>
+                        <div class="card-header bg-transparent border-0"><i class="icon ion-code"></i></div>
                         <div class="card-body">
-                            <h3 class="card-title">Software Engineering</h3>
-                            <p class="card-text">I am always open for new technologies and advancements related to software
-                                engineering. I am constantly learning and updating.</p>
+                            <h3 class="card-title">Scripting</h3>
+                            <p class="card-text">I like to write scripts for different purposes from web scraping to
+                                data-science.</p>
                         </div>
                     </div>
                 </div>
@@ -89,10 +89,10 @@
         <div class="row align-items-center">
             <div class="col-md-12 col-lg-5 offset-lg-1 text">
                 <h3>NS3-Gym Sumo</h3><a href="#"></a>
-                <p>Currently working on this project as my final year project at the <a href="https://www.aub.edu.lb"
-                                                                                        style="color: white">American
-                    University of Beirut</a>.&nbsp; The project is a system that regulates vehicular traffic flow using
-                    reinforcmnent learning. a branch of machine learnig. This project
+                <p>Currently working on this project as my final year project at the
+                    <a href="https://www.aub.edu.lb" style="color: white">American University of Beirut</a>.&nbsp;
+                    The project is a system that regulates vehicular traffic flow using
+                    reinforcement learning. a branch of machine learning. This project
                     links the open-source network simulator NS3 with OpenAI gym framework for reinforcement learning and
                     Sumo for traffic simulation.&nbsp;&nbsp;</p>
             </div>
@@ -105,6 +105,14 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
+<section class="portfolio-block website">
+    <div class="container">
+        <div class="heading">
+            <h2 class="text-center">My Github</h2>
+        </div>
+        <div class="calendar"><!-- Loading stuff -->Loading the data just for you.</div>
     </div>
 </section>
 <footer class="page-footer">
@@ -139,6 +147,10 @@
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161722008-2"></script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+<script> GitHubCalendar(".calendar", "jKh98", { responsive: true });</script>
 <script>
     window.dataLayer = window.dataLayer || [];
 
