@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Jihad Al Khurfan</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
 
-<>
+<body>
 <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark portfolio-navbar gradient">
     <div class="container"><a class="navbar-brand logo" href="#">Jihad Al-Khurfan</a>
         <button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span
@@ -30,7 +31,7 @@
 </nav>
 <main class="page landing-page">
     <section class="portfolio-block block-intro">
-        <div class="container">
+        <div class="container" data-aos="fade-in">
             <div class="avatar"
                  style="background-image: url(assets/img/profile-pic.jpg);width: 200px;height: 200px;"></div>
             <div class="about-me" style="font-size: 24px;">
@@ -38,10 +39,11 @@
                 <p style="margin: 0;font-size: 32px;">Software Developer<br></p>
                 <p style="font-size: 28px;">Computer and Communications Engineering Student<br></p>
             </div>
+            <a class="btn btn-primary btn-lg" type="button" style="font-size: 24px;"
+               href="assets/pdf/Jihad-AlKhurfan-Resume.pdf"
+               download="Jihad-AlKhurfan-Resume.pdf">Download Resume</a>
         </div>
-        <a class="btn btn-primary btn-lg" type="button" style="font-size: 24px;"
-           href="assets/pdf/Jihad-AlKhurfan-Resume.pdf"
-           download="Jihad-AlKhurfan-Resume.pdf">Download Resume</a></section>
+    </section>
     <section class="portfolio-block skills">
         <div class="container">
             <!-- Start: portfolio heading -->
@@ -50,9 +52,10 @@
             </div>
             <!-- End: portfolio heading -->
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-right">
                     <div class="card special-skill-item border-0">
-                        <div class="card-header bg-transparent border-0"><i class="icon ion-laptop"></i></div>
+                        <div class="card-header bg-transparent border-0"><i
+                                class="icon ion-laptop animated scale-on-hover"></i></div>
                         <div class="card-body">
                             <h3 class="card-title">Development</h3>
                             <p class="card-text">I mostly develop front-end Android mobile applications as well as
@@ -61,9 +64,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-up">
                     <div class="card special-skill-item border-0">
-                        <div class="card-header bg-transparent border-0"><i class="icon ion-network"></i></div>
+                        <div class="card-header bg-transparent border-0"><i
+                                class="icon ion-network animated scale-on-hover"></i></div>
                         <div class="card-body">
                             <h3 class="card-title">Networking</h3>
                             <p class="card-text">I am interested in research on vehicular networks. I use NS3
@@ -71,9 +75,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left">
                     <div class="card special-skill-item border-0">
-                        <div class="card-header bg-transparent border-0"><i class="icon ion-code"></i></div>
+                        <div class="card-header bg-transparent border-0"><i
+                                class="icon ion-code animated scale-on-hover"></i></div>
                         <div class="card-body">
                             <h3 class="card-title">Scripting</h3>
                             <p class="card-text">I like to write scripts for different purposes from web scraping to
@@ -86,7 +91,7 @@
     </section>
 </main>
 <section class="portfolio-block website gradient">
-    <div class="container">
+    <div class="container" data-aos="flip-left">
         <div class="row align-items-center">
             <div class="col-md-12 col-lg-5 offset-lg-1 text">
                 <h3>NS3-Gym Sumo</h3><a href="#"></a>
@@ -109,7 +114,7 @@
     </div>
 </section>
 <section class="portfolio-block website">
-    <div class="container">
+    <div class="container" data-aos="flip-right">
         <div class="heading">
             <h2 class="text-center">My Github</h2>
         </div>
@@ -117,7 +122,8 @@
     </div>
 </section>
 <footer class="page-footer">
-    <div class="container">
+    <div class="container" data-aos="fade-up"
+         data-aos-anchor-placement="bottom-bottom">
         <div class="links"><a href="cv.html">About me</a><a href="contact.html">Contact me</a><a
                 href="projects-no-images.html">My Projects</a></div>
         <div class="social-icons">
@@ -162,6 +168,10 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-161722008-2');
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
 </script>
 </body>
 

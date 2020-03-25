@@ -10,5 +10,7 @@
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="github-calendar" level="application" />
     <orderEntry type="library" name="github-calendar-responsive" level="application" />
+    <orderEntry type="library" name="animate" level="application" />
+    <orderEntry type="library" name="aos" level="application" />
   </component>
 </module>

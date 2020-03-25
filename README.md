@@ -7,3 +7,4 @@ This website was built with the help of:
 * [Google Analytics](https://analytics.google.com) for visitor statistics
 * [Formspree](https://formspree.io) for server-less forms
 * [Github calender](https://github.com/IonicaBizau/github-calendar) developed by [IonicBizau](https://github.com/IonicaBizau)
+* [Scroll animations](https://michalsnik.github.io/aos/) developed by [michalsnik](https://github.com/michalsnik)

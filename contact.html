@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Contact - Jihad Al Khurfan</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
@@ -34,7 +35,7 @@
             <div class="heading">
                 <h2>Contact me</h2>
             </div>
-            <form id="contact" action="https://formspree.io/jkhurfan.jk@gmail.com" method="POST">
+            <form id="contact" action="https://formspree.io/jkhurfan.jk@gmail.com" method="POST" data-aos="zoom-out">
                 <input type="hidden" name="_next" value="/thanks.html"/>
                 <div class="form-group">
                     <label for="name">Your Name</label><input class="form-control item" type="text" id="name" required>
@@ -59,7 +60,8 @@
     </section>
 </main>
 <footer class="page-footer">
-    <div class="container">
+    <div class="container" data-aos="fade-up"
+         data-aos-anchor-placement="bottom-bottom">
         <div class="links"><a href="cv.html">About me</a><a href="contact.html">Contact me</a><a
                 href="projects-no-images.html">My Projects</a></div>
         <div class="social-icons">
@@ -96,6 +98,10 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-161722008-2');
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
 </script>
 </body>
 
