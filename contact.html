@@ -38,17 +38,18 @@
             <form id="contact" action="https://formspree.io/jkhurfan.jk@gmail.com" method="POST" data-aos="zoom-out">
                 <input type="hidden" name="_next" value="/thanks.html"/>
                 <div class="form-group">
-                    <label for="name">Your Name</label><input class="form-control item" type="text" id="name" required>
+                    <label for="name">Your Name</label><input class="form-control item" type="text" id="name"
+                                                              name="name" required>
                 </div>
                 <div class="form-group">
                     <label for="subject">Subject</label><input class="form-control item" type="text" id="subject"
-                                                               name="_subject" required></div>
+                                                               name="subject" required></div>
                 <div class="form-group">
                     <label for="email">Email</label><input class="form-control item" type="email" id="email"
-                                                           name="_replyto" required></div>
+                                                                name="_replyto" required></div>
                 <div class="form-group">
                     <label for="message">Message</label><textarea class="form-control item" id="message"
-                                                                  required></textarea>
+                                                                  name="message" required></textarea>
                 </div>
                 <div class="form-group">
                     <button class="btn btn-primary btn-block btn-lg" type="submit" name="submit" id="contact-submit"
@@ -94,7 +95,11 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161722008-2"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'UA-161722008-2');
